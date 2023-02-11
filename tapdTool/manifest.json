@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "OpenTapd",
+    "description":  "用于方便打开Tapd官网,暂无其它功能",
+    "version":  "0.0.0.1",
+     "icons": {
+    "16": "images/tapd16.png",
+    "32": "images/tapd32.png",
+    "48": "images/tapd48.png",
+    "128": "images/tapd128.png"
+  },
+  "action": {
+    "default_icon": "images/tapd16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
